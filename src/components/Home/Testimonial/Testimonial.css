@@ -1,0 +1,49 @@
+
+.carousel .control-dots .dot {
+  font-size: 20px;
+  color: #000;
+  background-color: #dc3545;;
+  width: 20px;
+  border-radius: 0;
+}
+/* .carousel.carousel-slider .control-arrow {
+  top: 0;
+  color: #fff;
+  font-size: 46px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #d40e21;
+} */
+
+
+.review-card{
+  position: relative;
+}
+.review-card::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: "";
+  background: url('../../Share//img/testimonial-bg-icon.png');
+  width: 500px;
+  height: 470px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  background-size: 100%;
+  top: -50px;
+}
+
+.title{
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #111111;
+  margin: 0;
+}
+
+
+
+

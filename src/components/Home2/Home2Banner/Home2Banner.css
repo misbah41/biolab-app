@@ -1,0 +1,11 @@
+.Home2Banner {
+  background-image: url("../../Share/img/home-2/banner-2/home2.png") !important;
+  background-repeat: no-repeat;
+  padding: 349px 0 222px;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: left;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  height: 125vh;
+}
